@@ -44,3 +44,10 @@ ul {
     .logo span{
         color:green;
     }
+    .column1 {
+      float: left;
+      width: 10%;
+      padding-right: 2px;
+      padding-top: 58px;
+      
+    }
