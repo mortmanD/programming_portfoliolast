@@ -32,6 +32,12 @@ ul {
       color:indianred;
     }
   
+    ol {
+      list-style-type:decimal;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
     .logo{
         font-weight: 700;
         font-style: oblique;
