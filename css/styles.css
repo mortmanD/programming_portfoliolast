@@ -48,6 +48,13 @@ ul {
       float: left;
       width: 10%;
       padding-right: 2px;
-      padding-top: 58px;
-      
+      padding-top: 58px;      
     }
+    .myimage{
+      border: 1px;
+      border-color:blue;
+      border-image-slice: fill;        
+      padding: 5px; 
+      width: 100px;
+      height: 90px;
+}
