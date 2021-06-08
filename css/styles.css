@@ -9,12 +9,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    
+    overflow: hidden;    
   }
   li {
-    float: left;
-    
+    float: left;    
   }
   
   li a {
@@ -25,12 +23,24 @@ ul {
     text-align: center;    
     text-decoration: none;
     font-style: oblique;
-  }
-  
+  } 
   
   li a:hover {
     background-color:lightpink;
   }
   li a:visited{
       color:indianred;
+    }
+  
+    .logo{
+        font-weight: 700;
+        font-style: oblique;
+        float: left;
+        display: flex;
+        font-size: 45px;
+        padding-right: 15px;
+        text-decoration-style: dotted;
+    }
+    .logo span{
+        color:green;
     }
