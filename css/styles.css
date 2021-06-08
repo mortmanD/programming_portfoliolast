@@ -58,3 +58,9 @@ ul {
       width: 100px;
       height: 90px;
 }
+imgcaption {
+  color: red;
+  font-style: italic;    
+  padding: 0px;
+  text-align: left;
+}
