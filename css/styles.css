@@ -116,3 +116,12 @@ th, td {
 .column10,.column12,.colum13{
   float: left;
   width: 33.33%;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }}
+  @media screen and (max-width: 600px) {
+      .myimage,.image1 {
+        display: none;
+      }}
