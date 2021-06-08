@@ -75,3 +75,20 @@ h1,h2{
   display: flex;
   width:100%;
 }
+.table{
+  border: lemonchiffon;
+  border-style: dotted;
+  width: 100%;
+  border-width: 10px;
+  background-color:goldenrod;   
+  padding-left: 25px;
+  text-align: center;
+  float: right;
+  outline-width: 10px;      
+  font-size: medium;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th, td {
+  border: 1px solid black;
+}
