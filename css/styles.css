@@ -75,6 +75,11 @@ h1,h2{
   display: flex;
   width:100%;
 }
+.column4{
+  float:left;
+  display: flex;
+  width:50%;
+}
 .table{
   border: lemonchiffon;
   border-style: dotted;
@@ -91,4 +96,9 @@ h1,h2{
 }
 th, td {
   border: 1px solid black;
+}
+.cv{
+  float:left;
+  width: 100%;
+  
 }
