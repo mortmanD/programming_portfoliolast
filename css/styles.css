@@ -64,3 +64,9 @@ imgcaption {
   padding: 0px;
   text-align: left;
 }
+.bio{
+  display:block;
+}
+h1,h2{
+    text-align: center;
+}
