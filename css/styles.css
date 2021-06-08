@@ -70,8 +70,8 @@ imgcaption {
 h1,h2{
     text-align: center;
 }
-.column4{
+.column5, .column6, .column4{
   float:left;
   display: flex;
-  width:50%;
+  width:100%;
 }
