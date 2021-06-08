@@ -1,0 +1,166 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+.navbar{
+  background-color: khaki;
+  height: 45px;
+  padding-bottom: 10px;
+  margin:0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+ol {
+  list-style-type:decimal;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: flex;
+  padding: 15px 10px;
+  border:none;
+  color: green;
+  text-align: center;    
+  text-decoration: none;
+  font-style: oblique;
+}
+
+
+li a:hover {
+  background-color:lightpink;
+}
+li a:visited{
+    color:indianred;
+  }
+.logo span{
+  color:green;
+}
+.logo{
+  font-weight: 700;
+  font-style: oblique;
+  float: left;
+  display: flex;
+  font-size: 45px;
+  padding-right: 15px;
+  text-decoration-style: dotted;
+}
+.column1 {
+  float: left;
+  width: 10%;
+  padding-right: 2px;
+  padding-top: 58px;
+  
+}
+.column4{
+    float:left;
+    display: flex;
+    width:50%;
+}
+.column5, .column6, .column4{
+  float:left;
+  display: flex;
+  width:100%;
+}
+
+.cv{
+  float:left;
+  width: 100%;
+  
+}
+
+
+.collist{
+  display: flex;
+
+}
+.myimage{
+      border: 1px;
+      border-color:blue;
+      border-image-slice: fill;        
+      padding: 5px; 
+      width: 100px;
+      height: 90px;
+}
+imgcaption {
+  color: red;
+  font-style: italic;    
+  padding: 0px;
+  text-align: left;
+}
+.bio{
+  display:block;
+}
+h1,h2{
+    text-align: center;
+}
+.image1{
+    display:flex;
+    float:left;
+    padding-left:45px; 
+    padding-top:45px; 
+    }
+    .pici{
+        padding-bottom:20px;  
+    }
+
+imgcaption1{
+  position:relative;
+  color: red;
+  font-style: italic;    
+  padding: 0px;
+  text-align: left;   
+}
+
+.table{
+  border: lemonchiffon;
+  border-style: dotted;
+  width: 100%;
+  border-width: 10px;
+  background-color:goldenrod;   
+  padding-left: 25px;
+  text-align: center;
+  float: right;
+  outline-width: 10px;      
+  font-size: medium;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th, td {
+  border: 1px solid black;
+}
+.column10,.column12,.colum13{
+  float: left;
+  width: 33.33%;
+  
+  }
+  .footer{
+      background-color: skyblue;
+      margin-top: 50px;
+      text-align: center;
+  }
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }}
+  @media screen and (max-width: 600px) {
+      .myimage,.image1 {
+        display: none;
+      }}
